@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Inscrições VDC</title>
+    <style>
+        .backgrond-navbar {
+            background-color: rgba(0, 0, 0, 0.88);
+        }
+        .backgrond-navbar:hover {
+            background-color: #000000;
+        }
+        .background-img {
+            background-image: url('imagens/acBG.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .custom-opacity {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .info-box {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body class="background-img col-12 m-auto">
+    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark backgrond-navbar" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+            <a class="navbar-brand" href="#Home-carousel">
+                <img src="imagens/assetoicone.png" width="50" height="50" alt="">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#Asseto-Corsa">Asseto Corsa<span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#Virtual Drift Championship">Virtual Drift Championship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Inscrições">Inscrições</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#Saiba Mais">Saiba Mais</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="Inscrições">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 info-box custom-opacity">
+                <h4 class="text-white text-center"><strong>Próxima etapa:</strong> Suécia</h4>
+                <h4 class="text-white"><strong>Track:</strong> Sturup Race Layout A</h4>   
+                <h4 class="text-white"><strong >Data:</strong> 18/07/2024</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 custom-opacity p-4 rounded">
+                <h2 class="text-white text-center">Inscrição para o Campeonato</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nome" class="text-white">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="text-white">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone" class="text-white">Telefone</label>
+                        <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <label for="dataNascimento" class="text-white">Data de Nascimento</label>
+                        <input type="date" class="form-control" id="dataNascimento">
+                    </div>
+                    <div class="form-group">
+                        <label for="experiencia" class="text-white">Experiência em Drift</label>
+                        <textarea class="form-control" id="experiencia" rows="3" placeholder="Descreva sua experiência"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="categoria" class="text-white">Categoria</label>
+                        <select class="form-control" id="categoria">
+                            <option>Amateur</option>
+                            <option>Pro-Spec</option>
+                            <option>Pro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="carro" class="text-white">Carro</label>
+                        <select class="form-control" id="carro">
+                            <option>VDC BMW E46 HGK</option>
+                            <option>VDC BMW E92 M3</option>
+                            <option>VDC Chevrolet Corvette C6</option>
+                            <option>VDC Mazda Rx-7 FD3S 20B</option>
+                            <option>VDC Nissan GT-R R35 DAMD</option>
+                            <option>VDC Nissan Silvia S15 2JZ</option>
+                            <option>VDC Nissan Skyline R33</option>
+                            <option>VDC Nissan Z</option>
+                            <option>VDC Shelby Mustang Super</option>
+                            <option>VDC Toyota GT86</option>
+                            <option>VDC Toyota Supra A90</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Inscrição</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-dark">Site criado e desenvolvido por Gabriel Padilha</span>
+        </div>
+        <div class="container text-center">
+            <span class="text-dark">Virtual Drift Championship 2024. Todos os direitos reservados</span>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLae0LcD8vKAni4Yd8KnChP1nEul6vsBxH3N" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
